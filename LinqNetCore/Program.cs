@@ -5,7 +5,7 @@ namespace LinqNetCore {
         static void Main(string[] args)
         {
             var stats = new OrganizationStats();
-            Console.WriteLine(stats.GetTotalLeslie());
+            Console.WriteLine(stats.GetTotalEmployeeCount());
 
             //Filtering();
             //Sorting();

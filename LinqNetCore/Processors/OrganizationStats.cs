@@ -20,7 +20,7 @@ namespace LinqNetCore.Processors
 
 
 
-        public int GetTotalLeslie()
+        public int GetTotalEmployeeCount()
         {
             return Employees.Count;
 
