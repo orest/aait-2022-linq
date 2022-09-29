@@ -1,9 +1,15 @@
-﻿using LinqNetCore.Processors;
+﻿using LinqNetCore.Models;
+using LinqNetCore.Processors;
 
 namespace LinqNetCore {
     internal class Program {
         static void Main(string[] args)
         {
+
+            var preLinq = new PreLinq();
+            preLinq.Run();
+
+
             var stats = new OrganizationStats();
             Console.WriteLine(stats.GetTotalEmployeeCount());
 
@@ -14,7 +20,6 @@ namespace LinqNetCore {
             //Projection();
             //Joins();
             //Grouping();
-            //Generation();
             //Aggregation();
 
             Console.WriteLine("Hello, World!");

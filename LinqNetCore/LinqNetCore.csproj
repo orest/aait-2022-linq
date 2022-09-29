@@ -8,6 +8,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Data\vehicles.csv" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Data\vehicles.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\LinqNetCore.Data\LinqNetCore.Data.csproj" />
     <ProjectReference Include="..\LinqNetCore.Models\LinqNetCore.Models.csproj" />
   </ItemGroup>

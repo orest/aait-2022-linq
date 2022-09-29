@@ -18,6 +18,10 @@ namespace LinqNetCore.Processors
             Employees = context.Employees;
         }
 
+        public void Process()
+        {
+
+        }
 
 
         public int GetTotalEmployeeCount()

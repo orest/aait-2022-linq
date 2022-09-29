@@ -1,3 +1,5 @@
+using LinqNetCore.Processors;
+
 namespace LinqNetCore.Test {
     [TestClass]
     public class UnitTest1 {
@@ -8,7 +10,7 @@ namespace LinqNetCore.Test {
             var s = new OrganizationStats();
             
             //Act 
-            var actual = s.GetTotalLeslie();
+            var actual = s.GetTotalEmployeeCount();
 
             //Assert 
             Assert.AreEqual(17,actual);
